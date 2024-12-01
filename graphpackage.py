@@ -1,5 +1,4 @@
 import circle,rectangle 
-package
 r=int(input("Enter the radius of circle:"))
 circle.areac(r)
 circle.peric(r)
