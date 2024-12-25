@@ -10,5 +10,3 @@ dict2 = {4: "plum", 5: "cherry"}
 print(f"Dictionary 1: {dict2}")
 dict1.update(dict2)
 print(f"Dictionary after merging: {dict1}")
-
-
