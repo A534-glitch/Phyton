@@ -1,5 +1,4 @@
 import csv
-
 field_name = ['no', 'company', 'car model']
 car = [
     {'no' : 1, 'company': 'Ferrari', 'car model': 'GH'},
@@ -16,4 +15,3 @@ with open('car.csv', newline='') as csvfile:
     d = csv.reader(csvfile)
     for r in d:
         print(','.join(r))
-
